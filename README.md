@@ -84,7 +84,7 @@ In the following case, please put `s%3A3xxaFrMMXWi1xxxtm23BjBYJTc8GAb7P.xxyxxzhx
 <img width="1357" alt="image" src="https://user-images.githubusercontent.com/43654114/219082856-5a235fe7-5884-4b2f-b176-52912dd863ae.png">
 
 ### OVERLEAF_HOST
-The OVERLEAF_HOST parameter can be used to sync with a self-hosted Community Edition or Server Pro Overleaf instance. The parameter defaults to `www.overleaf.com`, when not set. It could be set to `ownhost:port` on your own overleaf platform.
+The OVERLEAF_HOST parameter can be used to sync with a self-hosted Community Edition or Server Pro Overleaf instance. The parameter defaults to `www.overleaf.com`, when not set. Its value could be set to `ownhost:port` for your own overleaf platform.
 
 To set the value, just add the environment variable to the actions step, as seen below:
 ```
